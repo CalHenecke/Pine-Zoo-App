@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://cordova.apache.org/ns/1.0"
+version="1.0.0"><name>Pine-Zoo-App/name>
+    <description>A Simple And Elegant Elephant Application</description>
+    <author> email="heneckecallan@gmail.com" href="http://heneckecallan@gmail.com"</author>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <!-- Platform- Specific Prefences -->
+    <preference name="fullscreen" value="true"/>
+    <preference name="orientation" value="default"/>
+    <1-- Icons and Splash Screens -->
+    <platform name="android">
+    <icon src="res/android/icon.png"/>
+    <splash src="res/android/icon.png"/>
+    </platform>
+    <platform name="ios">
+    <icon src="res/ios/icon.png"/>
+    <splash src="res/ios/icon.png"/>
+    </platform>
+    <!-- Plugins-->
+    <plugin name="cordova-plugin-whitelist" spec="1"/>
+    <plugin name="cordova-plugin-splashscreen" spec="5.0.2"/>
+</widget>
