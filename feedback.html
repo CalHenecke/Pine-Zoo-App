@@ -20,10 +20,14 @@
                        <h3>WE'D LOVE TO HERE FROM YOU</h3>
                        <p>We always strive to do best, so your feedback is very important to us.
                        Please fill in the form below</p>
-                        <input type="text" placeholder="Your name" id="name">
-                      <input type="text" placeholder="Your email" id="email">
-                      <textarea placeholder="Type your message here"></textarea>
-                      <a class="button" href="message-received.html">SUBMIT</a>
+                      <form action="https://formsubmit.co/bd0b5ad450b08b0a66dec64fcf8577e3" method="POST">
+                      <input type="hidden" name="_next" value="https://calhenecke.github.io/Pine-Zoo-App/message.html">
+                      <input type="hidden" name="_captcha" value="false">
+                        <input type="text" placeholder="Your name" id="name" name="name" required>
+                        <input type="email" placeholder="Your email" id="email" name="email" required>
+                        <textarea placeholder="Type your message here" name="message" required></textarea>
+                        <button class="button" type="submit">SUBMIT</button>
+                       </form>
                     </div>
              </div>
         </div>
